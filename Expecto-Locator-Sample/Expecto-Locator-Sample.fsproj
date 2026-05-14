@@ -12,9 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Expecto" Version="10.*" />
-    <PackageReference Include="YoloDev.Expecto.TestSdk" Version="0.15.*" />
+    <PackageReference Include="Expecto" Version="11.0.0-experimental-codelocation" />
+    <PackageReference Include="Expecto.TestLocator.CompilerService" Version="11.0.0-experimental-codelocation" />
+    <PackageReference Include="YoloDev.Expecto.TestSdk" Version="0.16.0-experimental-codelocation" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.*" />
-    <PackageReference Update="FSharp.Core" Version="7.*" />
+    <PackageReference Update="FSharp.Core" Version="9.*" />
   </ItemGroup>
 </Project>
